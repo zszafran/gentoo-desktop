@@ -1,0 +1,61 @@
+sys-apps/portage native-extensions
+sys-kernel/gentoo-sources experimental
+sys-fs/eudev hwdb kmod -introspection
+sys-devel/gcc nptl graphite 
+dev-libs/elfutils lzma bzip2
+sys-apps/kmod zlib lzma tools
+dev-lang/python threads xml sqlite
+sys-apps/pciutils zlib udev kmod
+sys-boot/refind btrfs
+net-misc/dhcpcd udev
+sys-apps/net-tools hostname arp
+app-shells/zsh unicode caps pcre
+app-editors/vim terminal
+sys-apps/hwids net pci usb udev
+x11-base/xorg-server xvfb xorg suid
+media-libs/mesa vulkan dri3 egl gbm gmb classic llvm gallium
+media-libs/libepoxy egl
+x11-drivers/nvidia-drivers driver uvm tools kms
+virtual/linux-sources formware firmware
+media-libs/freetype fontforge bzip2 adobe-cff png -harfbuzz cleartype_hinting
+media-libs/harfbuzz graphite cairo glib icu
+x11-libs/cairo glib svg opengl
+x11-libs/libxcb xkb
+dev-libs/libxml2 python icu
+net-misc/curl threads http2 progress-meter
+dev-libs/libpcre2 unicode pcre16 bzip2 zlib
+dev-qt/qtgui gif evdev jpeg -png vulkan dbus
+media-libs/libcanberra gstreamer pulseaudio alsa sound
+media-sound/pulseaudio alsa realtime dbus equalizer
+dev-python/PyQt5 dbus x11extras widgets websockets network webchannel svg gui sensors multimedia sql -webkit
+dev-qt/qtsql sqlite
+sys-auth/polkit elogind
+dev-scheme/guile threads regex
+dev-qt/qtmultimedia widgets
+dev-libs/boehm-gc threads
+sys-libs/ncurses tinfo unicode split-user threads gpm
+x11-misc/i3status pulseaudio
+sys-libs/zlib minizip
+net-libs/nodejs snapshot system-ssl icu npm inspector
+app-text/xmlto text
+media-libs/libwebp opengl tiff gif jpeg png
+dev-vcs/git curl iconv highlight pcre threads
+media-libs/openh264 plugin
+sys-process/htop unicode
+www-client/chromium system-ffmpeg system-libvpx widevine pulseaudio proprietary-codecs system-icu
+media-video/ffmpeg librtmp network truetype chromium fontconfig zlib pulseaudio opengl iconv x264 opus x256 alsa lzma mp3 svg vorbis encode vulkan bzip2 gpl
+dev-cpp/cairomm svg
+x11-misc/polybar network pulseaudio mpd curl alsa i3wm
+x11-misc/nitrogen nls
+x11-misc/compton drm opengl dbus pcre
+x11-misc/picom opengl drm doc pcre config-file dbus
+sys-apps/util-linux su kill unicode pam
+app-emulation/docker container-init btrfs device-mapper
+x11-libs/gdk-pixbuf jpeg tiff
+app-portage/layman sync-plugin-portage git
+app-crypt/libsecret crypt
+app-crypt/pinentry gnome-keyring
+app-text/poppler utils lcms css cxx
+sys-fs/lvm2 thin
+sys-process/tini static
+dev-libs/boost zlib bzip2 icu lzma threads

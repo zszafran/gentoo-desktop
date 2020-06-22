@@ -1,0 +1,7 @@
+x11-drivers/nvidia-drivers ~amd64
+x11-terms/kitty ~amd64
+x11-terms/kitty-terminfo ~amd64
+x11-misc/nitrogen ~amd64
+x11-misc/compton ~amd64
+x11-misc/picom ~amd64
+app-editors/vscode-bin ~amd64

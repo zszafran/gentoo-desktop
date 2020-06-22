@@ -1,0 +1,18 @@
+GIT_DIR="/repo/.git"
+GIT_WORK_TREE="/"
+
+alias dotfile="sudo git --git-dir=${GIT_DIR} --work-tree=${GIT_WORK_TREE}"
+alias dotfile_changes="dotfile add -u && dotfile status -uno"
+alias dotfile_add="dotfile add -f"
+alias dotfile_submit="dotfile add -u && \
+                      dotfile commit -m \"dotfiles\" && \
+                      dotfile push --force upstream"
+alias dotfile_permissions="cd / && \
+                           dotfile ls-files | \
+                           xargs -n1 -d'\n' sudo stat -c \"%a %G %g %n\" | \
+                           sudo tee /.permissions"
+
+setopt complete_aliases
+
+alias emerge_world="sudo emerge --verbose --update --deep --newuse --with-bdeps=y world"
+alias emerge_upgrade="sudo emerge --sync && sudo emerge --update --newuse --deep --with-bdeps=y @world"
